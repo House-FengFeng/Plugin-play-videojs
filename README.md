@@ -1,10 +1,11 @@
 # Hướng dẫn sử dụng mã nguồn:
 
 ##**Mục Lục:**
-- [Mục đích của bộ mã nguồn](https://github.com/House-FengFeng/API-Get-Link-Zing-Mp3/#m%E1%BB%A5c-%C4%91%C3%ADch)
-- [Kiến thức cần thiết để sử dụng](https://github.com/House-FengFeng/API-Get-Link-Zing-Mp3/#ki%E1%BA%BFn-th%E1%BB%A9c-c%E1%BA%A7n-thi%E1%BA%BFt)
-- [Hướng dẫn sử dụng](https://github.com/House-FengFeng/API-Get-Link-Zing-Mp3#h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-s%E1%BB%AD-d%E1%BB%A5ng)
-- [Tác giả](https://github.com/House-FengFeng/API-Get-Link-Zing-Mp3/#t%C3%A1c-gi%E1%BA%A3-zhu-jin-feng)
+- [Mục đích của bộ mã nguồn](https://github.com/House-FengFeng/Plugin-play-videojs/tree/master#m%E1%BB%A5c-%C4%91%C3%ADch)
+- [Kiến thức cần thiết để sử dụng](https://github.com/House-FengFeng/Plugin-play-videojs/tree/master#ki%E1%BA%BFn-th%E1%BB%A9c-c%E1%BA%A7n-thi%E1%BA%BFt)
+- [Hướng dẫn sử dụng](https://github.com/House-FengFeng/Plugin-play-videojs/tree/master#h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-s%E1%BB%AD-d%E1%BB%A5ng)
+- [Tác giả](https://github.com/House-FengFeng/Plugin-play-videojs/tree/master#t%C3%A1c-gi%E1%BA%A3-zhu-jin-feng)
+- [Facebook](https://github.com/House-FengFeng/Plugin-play-videojs/tree/master#facebook-httpswwwfacebookcomprofilephpid100004989074517)
 
 ####**Mục đích:**
 - Hỗ trợ cho những ai chưa tích hợp được player cho site
