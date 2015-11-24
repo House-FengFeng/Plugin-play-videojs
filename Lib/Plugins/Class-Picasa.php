@@ -1,4 +1,7 @@
 <?php
+
+### Update version 2.0.0.0 ###
+
 Class Picasa {
 	private $link;
 	private $type;
@@ -90,10 +93,10 @@ Class Picasa {
 		$Data[1] = $this->get_720p_mp4();
 		if(strpos($Data[1],'=m18')) {
 			unset($Data[1]);
-			$Js = '<source label="360p" src="' . $Data[0] . '" type="video/mp4" />';
+			$Js = '<source data-res="360p" src="' . $Data[0] . '" type="video/mp4" />';
 		}
 		else {
-			$Js = '<source label="720p" src="' . $Data[1] . '" type="video/mp4" /><source label="360p" src="' . $Data[0] . '" type="video/mp4" />';
+			$Js = '<source data-res="720p" src="' . $Data[1] . '" type="video/mp4" /><source data-res="360p" src="' . $Data[0] . '" type="video/mp4" />';
 		}
 		return $Js;
 	}
