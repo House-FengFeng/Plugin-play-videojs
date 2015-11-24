@@ -4,7 +4,7 @@
 - [Mục đích của bộ mã nguồn](https://github.com/House-FengFeng/Plugin-play-videojs/tree/master#m%E1%BB%A5c-%C4%91%C3%ADch)
 - [Kiến thức cần thiết để sử dụng](https://github.com/House-FengFeng/Plugin-play-videojs/tree/master#ki%E1%BA%BFn-th%E1%BB%A9c-c%E1%BA%A7n-thi%E1%BA%BFt)
 - [Hướng dẫn sử dụng](https://github.com/House-FengFeng/Plugin-play-videojs/tree/master#h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-s%E1%BB%AD-d%E1%BB%A5ng)
-- [Cập nhập]()
+- [Cập nhập](https://github.com/House-FengFeng/Plugin-play-videojs/blob/master/README.md#c%E1%BA%ADp-nh%E1%BA%ADp)
 - [Tác giả](https://github.com/House-FengFeng/Plugin-play-videojs/tree/master#t%C3%A1c-gi%E1%BA%A3-zhu-jin-feng)
 - [Facebook](https://github.com/House-FengFeng/Plugin-play-videojs/tree/master#facebook-httpswwwfacebookcomprofilephpid100004989074517)
 
