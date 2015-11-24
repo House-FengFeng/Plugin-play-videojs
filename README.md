@@ -21,6 +21,8 @@
 - Ở file LoadPlugins.php, nếu bạn chỉ sử dụng server Picasa thì hãy bỏ dòng **$Plugins_List[] = 'Class-Youtube.php';** đi để tránh include dư thừa
 - Những file còn lại các bạn vui lòng không chỉnh sửa, nếu có nhu cầu muốn update thêm chức năng hay bất cứ thứ gì liên quan có thể inbox mình, nếu được mình sẽ update
 - Vui lòng share source nhớ ghi rõ nguồn
+- Nếu bạn bị lỗi khi get source về từ github thì có thể download bản khác tại link này: http://goo.gl/4Ajtv0
+- Pass: VideoJs-JkeyCPHong-PHP (Nếu link chết vui lòng liên hệ với nick facebook bên dưới để update lại link)
 
 ####**Cập nhập:**
 #####Version 2.0.0.0:
