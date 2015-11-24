@@ -56,10 +56,10 @@ Class YoutbeDownloader
                 }
             }
             if (isset($m22, $m18)) {
-                $js = '<source label="720p" src="' . $m22 . '" type="video/mp4" />
-                        <source label="360p" src="' . $m18 . '" type="video/mp4" />';
+                $js = '<source data-res="720p" src="' . $m22 . '" type="video/mp4" />
+                        <source data-res="360p" src="' . $m18 . '" type="video/mp4" />';
             } elseif (isset($m18)) {
-                $js = '<source label="360p" src="' . $m18 . '" type="video/mp4" />';
+                $js = '<source data-res="360p" src="' . $m18 . '" type="video/mp4" />';
             } else {
                 $js = 'Not support';
             }
