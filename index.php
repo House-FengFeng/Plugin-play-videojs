@@ -1,14 +1,31 @@
-<?php
-### Version: 1.0.0.0
-### Author: Jkey C Phong
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Test Code</title>
+</head>
+<body>
+	<style type='text/css'>
+		body {
+			font-family: Arial, sans-serif;
+			background: #777;
+		}
+		.video-js {
+			margin: 40px auto;
+		}
+	</style>
 
-### Trang index.php ###
+	<?php
 
-require 'Player_Load.php';		// Load plugin
-$Object = new Player();
-$Object->__Show('https://picasaweb.google.com/102301520469286682879/Inuyasha?authkey=Gv1sRgCLPfu9qS8tKnnQE#6219549412764126098');	// Link phim
-unset($Object); // Nếu không dùng nữa, hãy unset để giải phóng bộ nhớ
+	### Hỗ trợ 3 server là: Picasa, Youtube, Zing TV (Hỗ trợ cho cả host nước ngoài bị chặn IP)
 
-### Trang index.php ###
-
-?>
+	require 'Player_Load.php';
+	$Object = new Player();
+	//$Object->__Show('https://picasaweb.google.com/111679342576603394295/Bask?authkey=Gv1sRgCKqoyvGZ_aGN1gE#6153409278111438402');
+	//$Object->__Show('http://tv.zing.vn/video/Haikyuu-Tap-25-END/IWZAC066.html');
+	$Object->__Show('https://www.youtube.com/watch?v=XM5MFEqq380');
+	unset($Object);
+	?>
+</body>
+</html>
