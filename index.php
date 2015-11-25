@@ -22,9 +22,9 @@
 
 	require 'Player_Load.php';
 	$Object = new Player();
-	//$Object->__Show('https://picasaweb.google.com/111679342576603394295/Bask?authkey=Gv1sRgCKqoyvGZ_aGN1gE#6153409278111438402');
+	$Object->__Show('https://picasaweb.google.com/111679342576603394295/Bask?authkey=Gv1sRgCKqoyvGZ_aGN1gE#6153409278111438402');
 	//$Object->__Show('http://tv.zing.vn/video/Haikyuu-Tap-25-END/IWZAC066.html');
-	$Object->__Show('https://www.youtube.com/watch?v=XM5MFEqq380');
+	//$Object->__Show('https://www.youtube.com/watch?v=XM5MFEqq380');
 	unset($Object);
 	?>
 </body>
