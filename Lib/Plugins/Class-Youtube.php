@@ -1,5 +1,4 @@
 <?php
-error_reporting(E_ALL);
 Class YoutbeDownloader
 {
     private static $endpoint = "http://www.youtube.com/get_video_info";
