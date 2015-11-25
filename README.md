@@ -25,10 +25,26 @@ $Plugins_List[] = 'Class-Youtube.php';
 đi để tránh include dư thừa
 - Những file còn lại các bạn vui lòng không chỉnh sửa, nếu có nhu cầu muốn update thêm chức năng hay bất cứ thứ gì liên quan có thể inbox mình, nếu được mình sẽ update
 - Vui lòng share source nhớ ghi rõ nguồn
-- Nếu bạn bị lỗi khi get source về từ github thì có thể download bản khác tại link này: http://goo.gl/4Ajtv0
+- Nếu bạn bị lỗi khi get về từ github thì có thể download bản zip tại link này: http://goo.gl/Z69TJY [Ver 2.1]
 - Pass: VideoJs-JkeyCPHong-PHP (Nếu link chết vui lòng liên hệ với nick facebook bên dưới để update lại link)
 
 ####**Cập nhập:**
+#####Version 2.0.0.1:
+*- Cải tiến:*
+<ul>
+<li>Fix lại lỗi play youtube khi bật cache</li>
+<li>Fix lại code</li>
+</ul>
+P.s: Do folder Player có một số file không thể up trực tiếp lên Github nên mình nén thành zip để các bạn download
+Link: http://goo.gl/cLNHYM | Pass: VideoJs-JkeyCPHong-PHP
+
+*- Nhược điểm:*
+<ul>
+<li>Chưa thể fix được lỗi chạy link Zing TV vì lý do bên site mình vẫn chạy ổn nhưng một số site khác thì có vấn đề nên chưa tìm ra hướng giải quyết</li>
+<li>Xuất hiện lỗi 500 với một số site ( Chưa biết lý do nên chưa thể fix )</li>
+<li>Không hiện chất lượng phim nếu sử dụng FLASH, để có thể hiển thị chất lượng trên FLASH thì phải đổi player, để khắc phục các bạn có thể chỉ cần chạy html5 thôi hoặc thay player, ngoài ra vẫn còn một số phương pháp khác mà mình chưa biết</li>
+</ul>
+
 #####Version 2.0.0.0:
 *- Cải tiến:*
 <ul>
