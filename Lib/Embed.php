@@ -1,11 +1,6 @@
 <?php
-error_reporting(E_ALL);
-setlocale(LC_TIME, 'vn_VN');
-date_default_timezone_set('Asia/Ho_Chi_Minh');
-if (!defined('Check')) {
-	header('HTTP/1.1 404 Not Found');
-	exit();
-}
+//setlocale(LC_TIME, 'vn_VN');
+//date_default_timezone_set('Asia/Ho_Chi_Minh');
 require_once 'LoadPlugins.php';
 foreach ($Plugins_List as $value) {
 	require_once('Lib/Plugins/' . $value);
@@ -22,11 +17,8 @@ Class Player_Load
 		$GLOBALS['js']	= ($GLOBALS['js'] == '')	? NULL : $GLOBALS['js'];
 		$GLOBALS['ie8']	= ($GLOBALS['ie8'] == '')	? NULL : $GLOBALS['ie8'];
 		$GLOBALS['text'] = ($GLOBALS['text'] == '') ? 'Kh&ocirc;ng h&#7895; tr&#7907; HTML5' : $GLOBALS['text'];
-		if (!is_numeric($GLOBALS['Cache'])) {
-			$GLOBALS['Cache'] = 0;
-		}
-		elseif ($GLOBALS['Cache'] != 1) {
-			$GLOBALS['Cache'] = 0;
+		if (!file_exists($GLOBALS['Cache_Folder']) == 1) {
+			exit('Folder cache không tồn tại, vui lòng kiểm tra!');
 		}
 	}
 
@@ -157,7 +149,7 @@ Class Player_Load
 
 	Private Function __Cache()
 	{
-		if ($GLOBALS['Cache'] == 1 AND $GLOBALS['Cache_Folder'] && $GLOBALS['Cache_Time'] != '') {
+		if ($GLOBALS['Cache'] === 1 AND $GLOBALS['Cache_Folder'] AND $GLOBALS['Cache_Time'] != '') {
 			$ReadCache = $this->__ReadCache($this->__Link, $GLOBALS['Cache_Time']);
 			if ($ReadCache === 0) {
 				$DataCache = $this->_CheckServer($this->__Link);
