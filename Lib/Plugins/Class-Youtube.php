@@ -1,4 +1,5 @@
 <?php
+error_reporting(E_ALL);
 Class YoutbeDownloader
 {
     private static $endpoint = "http://www.youtube.com/get_video_info";
@@ -61,7 +62,7 @@ Class YoutbeDownloader
             } elseif (isset($m18)) {
                 $js = '<source data-res="360p" src="' . $m18 . '" type="video/mp4" />';
             } else {
-                $js = 'Not support';
+                return 'Not support';
             }
             return $js;
         }
