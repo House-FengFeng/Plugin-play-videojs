@@ -1,8 +1,7 @@
 <?php
-if (!defined('Check')) {
-	header('HTTP/1.1 404 Not Found');
-	exit();
-}
+
+### Update version 2.0.0.1 ###
+
 ### Tạo đường dẫn đến các file js và css phục vụ cho videojs ###
 $GLOBALS['css']			= 'Player/temp/player_style.css';			// Link CSS videojs
 $GLOBALS['js']			= 'Player/temp/player_script.js';			// Link JS videojs
