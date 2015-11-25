@@ -25,7 +25,7 @@ $Plugins_List[] = 'Class-Youtube.php';
 đi để tránh include dư thừa
 - Những file còn lại các bạn vui lòng không chỉnh sửa, nếu có nhu cầu muốn update thêm chức năng hay bất cứ thứ gì liên quan có thể inbox mình, nếu được mình sẽ update
 - Vui lòng share source nhớ ghi rõ nguồn
-- Nếu bạn bị lỗi khi get về từ github thì có thể download bản zip tại link này: http://goo.gl/Z69TJY [Ver 2.1]
+- Nếu bạn bị lỗi khi get về từ github thì có thể download bản zip tại link này: http://goo.gl/VTpTMn [Ver 2.1]
 - Pass: VideoJs-JkeyCPHong-PHP (Nếu link chết vui lòng liên hệ với nick facebook bên dưới để update lại link)
 
 ####**Cập nhập:**
@@ -36,7 +36,7 @@ $Plugins_List[] = 'Class-Youtube.php';
 <li>Fix lại code</li>
 </ul>
 P.s: Do folder Player có một số file không thể up trực tiếp lên Github nên mình nén thành zip để các bạn download
-Link: http://goo.gl/cLNHYM | Pass: VideoJs-JkeyCPHong-PHP
+Link: http://goo.gl/9DwH14 | Pass: VideoJs-JkeyCPHong-PHP
 
 *- Nhược điểm:*
 <ul>
