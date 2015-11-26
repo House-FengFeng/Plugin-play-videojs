@@ -1,7 +1,7 @@
 <?php
 
-### Update version 2.0.0.0 ###
-### Hỗ trợ server Zing TV giành cho các host nước ngoài ###
+### Tác giả: Jkey C Phong ###
+### Vui lòng giữ lại header này khi đem share đến các site khác! ###
 
 Class ZingTV
 {
