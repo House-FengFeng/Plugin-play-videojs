@@ -1,4 +1,9 @@
 <?php
+
+### Source play videojs ###
+### Nguồn: Internet ###
+### Khi đem share đến các site khác vui lòng giữ lại header này! ###
+
 Class YoutbeDownloader
 {
     private static $endpoint = "http://www.youtube.com/get_video_info";
