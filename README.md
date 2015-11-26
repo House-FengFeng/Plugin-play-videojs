@@ -25,18 +25,34 @@ $Plugins_List[] = 'Class-Youtube.php';
 đi để tránh include dư thừa
 - Những file còn lại các bạn vui lòng không chỉnh sửa, nếu có nhu cầu muốn update thêm chức năng hay bất cứ thứ gì liên quan có thể inbox mình, nếu được mình sẽ update
 - Vui lòng share source nhớ ghi rõ nguồn
-- Nếu bạn bị lỗi khi get về từ github thì có thể download bản zip tại link này: http://goo.gl/VTpTMn [Ver 2.1]
+- Nếu bạn bị lỗi khi get về từ github thì có thể download bản zip tại link này: http://goo.gl/Nzlo9Y [Ver 2.2]
 - Pass: VideoJs-JkeyCPHong-PHP (Nếu link chết vui lòng liên hệ với nick facebook bên dưới để update lại link)
 
 ####**Cập nhập:**
+#####Version 2.0.0.2:
+*- Cải tiến:*
+<ul>
+<li>Thêm cache time cho từng server</li>
+<li>Thay đổi player (Do bạn *Nate Love* cung cấp)</li>
+<li>Hỗ trợ sub</li>
+<li>Fix lỗi http status code 500 trên một số site dùng phiên bản PHP thấp</li>
+<li>Fix lại tùy chọn width và height trên một số site</li>
+<li>Fix lại một số lỗi trong code</li>
+</ul>
+
+*- Nhược điểm:*
+<ul>
+<li>Không hỗ trợ flash</li>
+<li>Chưa hỗ trợ caption cho sub</li>
+<li>Và một số lỗi nhỏ khác</li>
+</ul>
+
 #####Version 2.0.0.1:
 *- Cải tiến:*
 <ul>
 <li>Fix lại lỗi play youtube khi bật cache</li>
 <li>Fix lại code</li>
 </ul>
-P.s: Do folder Player có một số file không thể up trực tiếp lên Github nên mình nén thành zip để các bạn download
-Link: http://goo.gl/9DwH14 | Pass: VideoJs-JkeyCPHong-PHP
 
 *- Nhược điểm:*
 <ul>
