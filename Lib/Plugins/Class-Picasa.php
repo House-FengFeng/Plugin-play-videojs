@@ -1,6 +1,8 @@
 <?php
 
-### Update version 2.0.0.0 ###
+### Update version 2.0.0.2 ###
+### Tác giả: Jkey C Phong ###
+### Khi đem class public vui lòng giữ lại header này!###
 
 Class Picasa {
 	private $link;
@@ -41,7 +43,7 @@ Class Picasa {
 	
 	private function get_xml_link(){
 		$source = $this->view_source($this->link);
-		if ( !$source){
+		if (!$source){
 			echo 'Không thể lấy dữ liệu';
 			exit();
 		}
