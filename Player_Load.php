@@ -5,15 +5,25 @@ require_once 'LoadPlugins.php';
 
 Class Player extends Player_Load
 {
-	Public Function __Show($Url)
+	Private Function __Options()
 	{
-    	if (isset($GLOBALS['css'], $GLOBALS['js'], $GLOBALS['ie8'], $GLOBALS['text'], $GLOBALS['width'], $GLOBALS['height'], $GLOBALS['flash'], $GLOBALS['quality_js'], $GLOBALS['quality_css'], $GLOBALS['Cache']) === TRUE) {
-			parent::_Embed();
-			parent::_Player($Url);
+		if (isset(
+				$GLOBALS['text'],
+				$GLOBALS['width'],
+				$GLOBALS['height'],
+				$GLOBALS['Cache']
+			) === TRUE) {
 		}
 		else {
-			exit('L&#7895;i trong qu&aacute; tr&igrave;nh trao &#273;&#7893;i d&#7919; li&#7879;u');
+			exit($this->Err_6);
 		}
+	}
+
+	Public Function __Show($Url, $Sub = '')
+	{
+		$this->__Options();
+		parent::_Embed();
+		parent::_Player($Url, $Sub);
 	}
 }
 ?>
