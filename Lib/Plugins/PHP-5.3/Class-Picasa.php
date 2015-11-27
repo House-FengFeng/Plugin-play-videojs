@@ -1,6 +1,6 @@
 <?php
 
-### Hỗ trợ cho các phiên bản PHP version thấp###
+### Ở bản 5.3 này sẽ không hỗ trợ link có dạng directlink ###
 
 Class Picasa {
 	private $link;
