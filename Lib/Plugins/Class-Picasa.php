@@ -1,8 +1,8 @@
 <?php
 
-### Update version 2.0.0.2 ###
+### Update ver 3.0.0 ###
 ### Tác giả: Jkey C Phong ###
-### Khi đem class public vui lòng giữ lại header này!###
+### Vui lòng giữ lại header này khi share đến các site khác ###
 
 Class Picasa {
 	private $link;
