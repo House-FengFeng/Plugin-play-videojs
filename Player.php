@@ -8,8 +8,8 @@
 $GLOBALS['download']		= 1;				// Bật chế độ download
 $GLOBALS['logo']			= 'logo.png';		// Chứa link logo, nếu không sử dụng logo hãy để trống
 $GLOBALS['des_logo']		= 'https://www.facebook.com/profile.php?id=100004989074517';
-(int)$GLOBALS['width']		= '1000';	// Chiều rộng của player
-(int)$GLOBALS['height']		= '500';	// Chiều cao của player
+(int)$GLOBALS['width']		= '1000';			// Chiều rộng của player
+(int)$GLOBALS['height']		= '500';			// Chiều cao của player
 $GLOBALS['text']			= 'Kh&ocirc;ng h&#7895; tr&#7907; HTML5';		// Text hiển thị khi trình duyệt của người dùng không hỗ trợ HTML5
 (bool)$GLOBALS['autoplay']	= 'true';	// Thay đổi thành true hay false
 $GLOBALS['preload']			= 'auto';	// Nên để mặc định là auto
