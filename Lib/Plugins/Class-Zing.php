@@ -1,8 +1,4 @@
 <?php
-
-### Tác giả: Jkey C Phong ###
-### Vui lòng giữ lại header này khi đem share đến các site khác! ###
-
 Class ZingTV
 {
 	Private $link;
@@ -44,7 +40,7 @@ Class ZingTV
 				} else {
 					return 'Not support';
 				}
-			}
+		}
 			if (isset($m720, $m480, $m360)) {
 				$js = '<source data-res="720" src="' . $m720 . '" type="video/mp4" />
                        <source data-res="480" src="' . $m480 . '" type="video/mp4" />
