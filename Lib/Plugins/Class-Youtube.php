@@ -1,8 +1,7 @@
 <?php
 
-### Source play videojs ###
-### Nguồn: Internet ###
-### Khi đem share đến các site khác vui lòng giữ lại header này! ###
+### Tác giả: Jkey C Phong ###
+### Vui lòng giữ lại header này khi share đến các site khác! ###
 
 Class YoutbeDownloader
 {
