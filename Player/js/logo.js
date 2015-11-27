@@ -1,0 +1,2 @@
+(function(d){var e={image:"",destination:"#"};d.plugin("logobrand",function(b){b=videojs.util.mergeOptions(e,b);var a=document.createElement("a");a.id="vjs-logobrand-image-destination";a.href=b.destination;a.target="_blank";var c=document.createElement("img");c.id="vjs-logobrand-image";c.src=b.image;a.appendChild(c);this.el().appendChild(a);this.loadImage=function(a){document.getElementById("vjs-logobrand-image").src=a};this.setDestination=function(a){document.getElementById("vjs-logobrand-image-destination").href=
+a};return this})})(window.videojs);
