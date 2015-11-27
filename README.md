@@ -25,10 +25,25 @@ $Plugins_List[] = 'Class-Youtube.php';
 đi để tránh include dư thừa
 - Những file còn lại các bạn vui lòng không chỉnh sửa, nếu có nhu cầu muốn update thêm chức năng hay bất cứ thứ gì liên quan có thể inbox mình, nếu được mình sẽ update
 - Vui lòng share source nhớ ghi rõ nguồn
-- Nếu bạn bị lỗi khi get về từ github thì có thể download bản zip tại link này: http://goo.gl/Nzlo9Y [Ver 2.2]
+- Nếu bạn bị lỗi khi get về từ github thì có thể download bản zip tại link này: http://goo.gl/b35aFx [Ver 3.0]
 - Pass: VideoJs-JkeyCPHong-PHP (Nếu link chết vui lòng liên hệ với nick facebook bên dưới để update lại link)
 
 ####**Cập nhập:**
+#####Version 3.0.0.0:
+*- Cải tiến:*
+<ul>
+<li>CSS cho sub đẹp mắt ( *Nate Love* cung cấp )</li>
+<li>Thêm chức năng download video tại player ( *Nate Love* cung cấp )</li>
+<li>Hỗ trợ logo, poster</li>
+<li>Hỗ trợ get link thêm 2 server: Google Photo và Dailymotion</li>
+</ul>
+
+*- Nhược điểm:*
+<ul>
+<li>Không hỗ trợ Flash</li>
+<li>Chưa hỗ trợ caption sub</li>
+</ul>
+
 #####Version 2.0.0.2:
 *- Cải tiến:*
 <ul>
